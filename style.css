@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ส่วนหัว */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-photo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* หัวข้อ section */
+h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    border-bottom: 3px solid #8d4a14;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* ข้อมูลพื้นฐาน */
+.info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.info li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* ความสามารถ */
+.skills .skill-list span {
+    display: inline-block;
+    background-color: lab(93.86% 12.43 -8.01);
+    color: #222121;
+    padding: 6px 12px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    font-size: 0.95em;
+}
+
+/* ประสบการณ์ */
+.project {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #ebb7df;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 0 0 8px 0;
+    color: #2c3e50;
+}
+
+.project p {
+    margin: 0;
+    color: #555;
+}
+
+/* ช่องทางติดต่อ */
+.contact p {
+    margin: 8px 0;
+    font-size: 1em;
+}
